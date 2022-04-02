@@ -1,4 +1,5 @@
-function removeApples(arr) {
-    return arr.filter(elem => elem !== 'apple')
-}   
-console.log(removeApples(['banana', 'orange', 'apple']));
+function addition(num1, num2) {
+    return num1 + num2
+}
+
+console.log(addition(4, 10))
