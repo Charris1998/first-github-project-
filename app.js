@@ -1,5 +1,5 @@
-function addition(num1, num2) {
-    return num1 + num2
+function subtraction(num1, num2) {
+    return num1 - num2
 }
 
-console.log(addition(4, 10))
+console.log(subtraction(50, 10))
