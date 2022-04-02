@@ -1,5 +1,5 @@
-function multiply(num1, num2) {
-    return num1 * num2
+function division(num1, num2) {
+    return num1 / num2
 }
 
-console.log(multiply(5, 14))
+console.log(division(60, 20))
