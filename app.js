@@ -19,3 +19,8 @@ function appendFrontend(string) {
     return string + 'Frontend'
 }
 console.log(appendFrontend('apple'))
+
+function greaterThan100(num1, num2) {
+    return num1 + num2 > 100
+}
+console.log(greaterThan100(49, 233))
