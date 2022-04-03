@@ -14,3 +14,8 @@ function calcAreaOfTriangle(base, height) {
     return 0.5 * base * height
 }
 console.log(calcAreaOfTriangle(3, 2))
+
+function appendFrontend(string) {
+    return string + 'Frontend'
+}
+console.log(appendFrontend('apple'))
