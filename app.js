@@ -1,5 +1,4 @@
-function division(num1, num2) {
-    return num1 / num2
+function hoursIntoSeconds(hours) {
+    return hours * 60 * 60
 }
-
-console.log(division(60, 20))
+console.log(hoursIntoSeconds(2))
