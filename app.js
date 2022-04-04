@@ -24,3 +24,11 @@ function greaterThan100(num1, num2) {
     return num1 + num2 > 100
 }
 console.log(greaterThan100(49, 233))
+
+
+function lessThanOrEqualToZero(num) {
+    return num <= 0
+}
+console.log(lessThanOrEqualToZero(100))
+
+
