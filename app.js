@@ -31,4 +31,8 @@ function lessThanOrEqualToZero(num) {
 }
 console.log(lessThanOrEqualToZero(100))
 
+function oppositeBoolean(bool) {
+    return !bool 
+}
+console.log(oppositeBoolean(true))
 
