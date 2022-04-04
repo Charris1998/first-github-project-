@@ -36,3 +36,8 @@ function oppositeBoolean(bool) {
 }
 console.log(oppositeBoolean(true))
 
+function isNotZero(elem) {
+    return elem !== 0
+}
+console.log(isNotZero(200))
+
