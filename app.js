@@ -1,4 +1,4 @@
-function boolInt(num){
-    return num % 2 === 0 ? 1 : -1
+function isLoggedInAndSubscribed(loggedIn, subscribed) {
+    return loggedIn === 'LOGGED_IN' && subscribed === 'SUBSCRIBED'	
 }
-console.log(boolInt(7))
+console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'))
