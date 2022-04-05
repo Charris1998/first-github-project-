@@ -1,4 +1,4 @@
-function boolInt(num1, num2) {
-    return num1 % num2 = 
+function boolInt(num){
+    return num % 2 === 0 ? 1 : -1
 }
-console.log(boolInt(8, 2))
+console.log(boolInt(7))
