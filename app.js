@@ -1,4 +1,4 @@
-function isLoggedInAndSubscribed(loggedIn, subscribed) {
-    return loggedIn === 'LOGGED_IN' && subscribed === 'SUBSCRIBED'	
+function isLoggedInOrSubscribed(loggedIn, subscribed) {
+    return loggedIn === 'LOGGED_IN' || subscribed === 'SUBSCRIBED'	
 }
-console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'))
+console.log(isLoggedInOrSubscribed('NOT_LOGGED_IN', 'SUBSCRIBED'))
