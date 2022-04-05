@@ -41,7 +41,10 @@ function isNotZero(elem) {
 }
 console.log(isNotZero(200))
 
-function calcRemainder(num1, num2) {
-    return num1 % num2
+function isOdd(num) {
+    return num % 2 !== 0  
 }
-console.log(calcRemainder(8, 2))
+console.log(isOdd(4))
+
+
+
