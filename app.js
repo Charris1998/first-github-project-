@@ -22,8 +22,19 @@ console.log(arrLength([1, 2, 3, 4]))
 // Get the last element of an Array
 // - Given an array, retrun the last element
 
-function arrLast(arr) {
+    function arrLast(arr) {
     return arr[arr.length -1]
     }
     console.log(arrLast([1, 2, 3, 4, 32, 28, 38]))
+
+    // Find the sum of an array 
+    // Given an array, return the sum of every element
     
+    function arrSum(arr) {
+        let sum = 0
+        for (let i = 0; i < arr.length; ++i ) {
+            sum = sum + arr[i]
+        }
+        return sum
+    }
+    console.log(arrSum([1, 2, 3, 4, 5, 6]))
