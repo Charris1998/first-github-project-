@@ -14,7 +14,7 @@ console.log(filterOutFalsy(100, 0))
 // - Given an array, return its length
 
 function arrLength(arr) {
-return arr.length
+    return arr.length
 }
 console.log(arrLength([1, 2, 3, 4]))
 
@@ -22,19 +22,33 @@ console.log(arrLength([1, 2, 3, 4]))
 // Get the last element of an Array
 // - Given an array, retrun the last element
 
-    function arrLast(arr) {
-    return arr[arr.length -1]
-    }
-    console.log(arrLast([1, 2, 3, 4, 32, 28, 38]))
+function arrLast(arr) {
+    return arr[arr.length - 1]
+}
+console.log(arrLast([1, 2, 3, 4, 32, 28, 38]))
 
-    // Find the sum of an array 
-    // Given an array, return the sum of every element
-    
-    function arrSum(arr) {
-        let sum = 0
-        for (let i = 0; i < arr.length; ++i ) {
-            sum = sum + arr[i]
-        }
-        return sum
+// Find the sum of an array 
+// Given an array, return the sum of every element
+
+function arrSum(arr) {
+    let sum = 0
+    for (let i = 0; i < arr.length; ++i) {
+        sum = sum + arr[i]
     }
-    console.log(arrSum([1, 2, 3, 4, 5, 6]))
+    return sum
+}
+console.log(arrSum([1, 2, 3, 4, 5, 6]))
+
+    // Add up the numbers from a single number - Given a number, 
+    // add up all the numbers from one to the number that is given.
+    // E.g.an input of 4 will give you 1 + 2 + 3 + 4, which equals 10.
+
+function progressiveSum(num) {
+    let sum = 0
+    for (let i = 1; i <= num; ++i) {
+        sum = sum + i
+    }
+    return sum
+}
+
+console.log(progressiveSum(3))
