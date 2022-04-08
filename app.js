@@ -52,3 +52,17 @@ function progressiveSum(num) {
 }
 
 console.log(progressiveSum(3))
+
+// Calculate the time - Given a number in seconds, 
+// return this number in mm:ss format
+
+function calcTime(seconds) {
+    let timerMinutes = Math.floor(seconds/60)
+    let timerSeconds = seconds % 60
+
+    if (timerMinutes.toString().length === 1) {
+        timerMinutes = '0' + timerMinutes
+    }
+    return timerMinutes + ':' + timerSeconds
+}
+console.log(calcTime(80))
